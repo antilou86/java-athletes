@@ -1,18 +1,20 @@
 package com.lambdaschool.solution;
 
-public class BaseballAthlete implements Processor, CourtInjector
+public class HockeyAthlete implements Processor, CourtInjector
 {
     @Override
-    public void displayAthlete() {
+    public void displayAthlete()
+    {
         System.out.println("************/n");
-        System.out.println("Baseball Athlete/n");
+        System.out.println("Hockey Athlete/n");
         System.out.println("************/n");
     }
 
     @Override
-    public void displayCourt() {
+    public void displayCourt()
+    {
         System.out.println("************/n");
-        System.out.println("Baseball Diamond/n");
+        System.out.println("Hockey Rink/n");
         System.out.println("************/n");
     }
 }
