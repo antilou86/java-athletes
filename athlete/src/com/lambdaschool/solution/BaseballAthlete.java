@@ -5,15 +5,15 @@ public class BaseballAthlete implements Processor, CourtInjector
 {
     @Override
     public void displayAthlete() {
-        System.out.println("************/n");
-        System.out.println("Baseball Athlete/n");
-        System.out.println("************/n");
+        System.out.println("************");
+        System.out.println("Baseball Athlete");
+        System.out.println("************");
     }
 
     @Override
     public void displayCourt() {
-        System.out.println("************/n");
-        System.out.println("Baseball Diamond/n");
-        System.out.println("************/n");
+        System.out.println("************");
+        System.out.println("Baseball Diamond");
+        System.out.println("************");
     }
 }

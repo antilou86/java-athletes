@@ -5,15 +5,15 @@ public class TrackAthlete implements Processor, CourtInjector
 {
     @Override
     public void displayAthlete() {
-        System.out.println("************/n");
-        System.out.println("Track Athlete/n");
-        System.out.println("************/n");
+        System.out.println("************");
+        System.out.println("Track Athlete");
+        System.out.println("************");
     }
 
     @Override
     public void displayCourt() {
-        System.out.println("************/n");
-        System.out.println("Track/n");
-        System.out.println("************/n");
+        System.out.println("************");
+        System.out.println("Track");
+        System.out.println("************");
     }
 }

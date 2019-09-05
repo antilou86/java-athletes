@@ -2,7 +2,7 @@ package com.lambdaschool.solution;
 
 //gives Main.java an instance of RugbyAthlete
 
-public class RugbyAthleteInjector implements AthleteCreationInjector
+public class RugbyAthleteCreationInjector implements AthleteCreationInjector
 {
     private RugbyAthlete athlete = new RugbyAthlete();
 
