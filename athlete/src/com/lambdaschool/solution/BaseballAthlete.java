@@ -1,6 +1,7 @@
 package com.lambdaschool.solution;
 
-public class BaseballAthlete implements Processor, CourtInjection {
+public class BaseballAthlete implements Processor, CourtInjector
+{
     @Override
     public void displayAthlete() {
         System.out.println("************");
