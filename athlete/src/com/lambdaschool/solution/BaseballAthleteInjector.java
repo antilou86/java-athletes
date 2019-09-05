@@ -1,6 +1,6 @@
 package com.lambdaschool.solution;
 
-public class BaseballAthleteCreationInjector implements AthleteCreationInjector
+public class BaseballAthleteInjector implements AthleteCreationInjector
 {
     private BaseballAthlete athlete = new BaseballAthlete();
 
