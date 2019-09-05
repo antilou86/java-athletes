@@ -1,5 +1,6 @@
 package com.lambdaschool.solution;
 
+//passes override information into mathods within BaseballAthleteCreationInjector.
 public class BaseballAthlete implements Processor, CourtInjector
 {
     @Override

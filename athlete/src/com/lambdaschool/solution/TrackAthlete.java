@@ -1,5 +1,6 @@
 package com.lambdaschool.solution;
 
+//passes override information into mathods within TrackAthleteCreationInjector.
 public class TrackAthlete implements Processor, CourtInjector
 {
     @Override

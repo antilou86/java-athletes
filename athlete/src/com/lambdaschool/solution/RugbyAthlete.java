@@ -1,5 +1,6 @@
 package com.lambdaschool.solution;
 
+//passes override information into mathods within RugbyAthleteCreationInjector.
 public class RugbyAthlete implements Processor, CourtInjector
 {
     @Override
